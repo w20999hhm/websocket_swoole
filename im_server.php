@@ -41,6 +41,7 @@ class Im_server
 
     public function onOpen($ws, $request)
     {
+        //TODO:
         //当客户端代码决定打开WebSocket时，它会联系HTTP服务器以获取授权“ticket”。
         //服务器生成此ticket。 它通常包含一些诸如 用户/帐户ID、请求ticket的客户端的IP地址，时间戳以及其他任何可能需要的内部数据。
         //服务器存储此ticket（即在数据库或缓存中），并将其返回给客户端。
